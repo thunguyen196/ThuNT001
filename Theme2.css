@@ -97,8 +97,7 @@ float: right;
 	width:960px;
 	margin:auto;
 
-	margin-left: 20px;
-
+	
 }
 .sub_PR{
 	width: 320px;
@@ -112,6 +111,7 @@ float: right;
 }
 .sub_PR p{
 	word-break: break-all;
+	margin-right: 30px;
 	}
 #cont{
 	
