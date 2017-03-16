@@ -3,7 +3,8 @@ body {
 	
 	background:#ffffff;
 	font-size: 100%;
-	
+	font-weight:100;
+	font-family:Georgia, serif ;
 
 
 }
@@ -29,50 +30,57 @@ body {
 }
 .search_box{
 	float: right;
-	width: 200px;
+	
 	height: 30px;
-	
-
-	
-
-
-	
 	
 }
 .search_box input{
 		background-color: ebebea;
 		border-radius: 5px;
 }
+.search_box input[type='submit']{
+  display: none;
+}
+
+
 #menu{
 	padding-bottom: 20px;
-
-	float: right;
-	float: bottom;
 	
+	height: 50px;
+	float: right;
+	width: 250px;
+	padding-left: 100px;
+	padding-right: 0px;
+	padding-top: 20px;
 
 	background: white;
 
 
 
+
 }
 #menu ul{
-	padding-left: 20px;
+	padding-left: 0px;
 	
 	list-style-type: none;
 	
 }
 #menu ul li {
 		display: inline;
-float: right;
+		padding-top: 20px;
+
+		font-weight: 50;
+		float: right;
 
 	
-
 }
 .link a{
 	text-decoration: none;
 	display: inline;
 	margin-right: 20px;
 	color: A0A0A0;
+	font-weight: 50;
+	font-size: 12;
 
 }
 .link a:hover{
@@ -96,11 +104,14 @@ float: right;
 
 #slide p{
 	padding-top: 20px;
+	padding-bottom:20px;
+
 	text-align: center;
 	margin: auto;
-	width: 960px;
+	
 	background-color: ebebea;
-	height: 100px;
+	
+	
 }
 #slide1{
 	margin-top: 20px;
@@ -117,12 +128,16 @@ float: right;
 	width: 500px;
 	float: right;
 	padding-bottom: 0px;
+	word-wrap: break-word;
+	padding-left: 20px;
+	line-height: 1.5;
 	height: 95px;
 	background-color: 0b0b0b;
 
 }
 #caption p{
 	color: white;
+	font-weight: 50;
 }
 
 	
@@ -147,10 +162,11 @@ float: right;
 	margin-left: 20px;
 }
 .sub_PR p{
-	
+	font-weight: 50;
 	word-wrap: break-word;
 	margin-right: 30px;
 	margin-left: 20px;
+	line-height: 1.75;
 	}
 .sub_PR img{
 	padding-left: 20px;
@@ -158,7 +174,7 @@ float: right;
 }
 #cont{
 	
-	background-color: d1ced6 ;
+	background-color: ebebea ;
 
 	width:  960px;
 	height: 700px;
@@ -179,10 +195,10 @@ float: right;
 .sub_cont p{
 	margin-left: 10px;
 	margin-right: 10px;
-
+	line-height: 1.5;
 	text-align: center;
 	float: left;
-	
+	font-weight: 50;
 	word-wrap: break-word;
 	
 
@@ -194,13 +210,16 @@ float: right;
 #bottom{
 	background-color: white;
 	width: 960px;
-	height: 250px;
+	height: 270px;
 	margin: auto;
+	font-weight: 50;
 }	
 .sub_bottom{
 	width: 220px;
 	margin-left: 20px;
 	float: left;
+	height: 230px;
+	margin-top: 20px;
 
 }
 .sub_bottom a{
@@ -210,12 +229,23 @@ float: right;
 .sub_bottom input{
 
  background-color: e6e6e6;
-  color:#a715ac;
+  font-family: Georgia;
   border-radius: 5px;
   border: #ffffff  solid 0px;
   padding-top: 5px;
   height: 30px;
 }
+#name{
+	color: 999999;}
+#email{
+	color: 999999;
+}
+#submit{
+	color: 874ca0;
+	font-weight: 80;
+}
+
+
 .sub_bottom img{
 	margin-top: 10px;
 }
@@ -223,11 +253,12 @@ float: right;
 #link{
 border: none;
 background-color: ffffff;
+font-weight: 40;
 }
 
 #footer{
 	width: 960px;
-	height: 100px;
+	height: 60px;
 	background-color:444444;
 	margin: auto;
 }
